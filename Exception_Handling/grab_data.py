@@ -5,13 +5,11 @@
 
 def grab_data():
     lst = ["Iron Man", "Spiderman", "Hulk"]
-    user_input = int(input("Please enter the movie number"))
+    user_input = int(input("Please enter the movie number : "))
     try:
         print(lst[user_input])
-    except IndexError:
+    except IndexError or ValueError:
         print("Please enter the index number on the basis of list")
-    except ValueError:
-        print("Please enter the integer value on the basis of list")
     finally:
         print(40*"=")
         print("Process Completed")
