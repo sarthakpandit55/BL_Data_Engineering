@@ -31,8 +31,7 @@ Please Enter your choice :- """))
 
     def order(self):
         """
-        This function is used to take and display the order of the user.
-        It takes the order of from the user and displays it to the user to recheck the order so that they can conform it.
+        This function is used to take and display the order of the user and ask again about the order by redirecting it to the menu.
         """
         print(f"Your order is {self.orders}")
         self.menu()
