@@ -1,0 +1,8 @@
+SELECT datname FROM pg_database;
+CREATE DATABASE TEST;
+
+SELECT datname from pg_database;
+
+CREATE DATABASE TEST2;
+DROP DATABASE TEST2;
+
