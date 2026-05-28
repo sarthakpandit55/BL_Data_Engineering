@@ -1,0 +1,12 @@
+SELECT * FROM EMPLOYEE;
+
+
+SELECT * FROM EMPLOYEE
+WHERE emp_id = 2;
+
+SELECT * FROM EMPLOYEE
+WHERE salary > 40000;
+
+SELECT * FROM EMPLOYEE
+WHERE dept = 'IT' or dept = 'FINANCE' and salary >= 30000;
+
